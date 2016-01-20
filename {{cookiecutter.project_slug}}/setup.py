@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="{{ cookiecutter.project_name }}",
-    description="{{ cookiecutter.project_slug }}, a plugin for reddit",
+    description="{{ cookiecutter.project_description }}",
     version="0.0",
     packages=find_packages(),
     install_requires=[

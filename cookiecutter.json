@@ -1,6 +1,7 @@
 {
   "project_slug": "skeleton",
   "project_name": "reddit_{{ cookiecutter.project_slug }}",
+  "project_description": "A skeleton plugin for r2",
   "plugin_name": "{{ cookiecutter.project_slug | capitalize }}",
   "year": "2016",
   "has_static_assets": ["yes", "no"]
