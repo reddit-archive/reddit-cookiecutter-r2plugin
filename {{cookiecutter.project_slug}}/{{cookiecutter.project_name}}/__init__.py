@@ -43,7 +43,7 @@ class {{ cookiecutter.plugin_name }}(Plugin):
     def add_routes(self, mc):
         # TODO: register your routes here, e.g.:
         #
-        # mc("/myplugin", controller="{{ cookiecutter.project_slug }}controller", action="something")
+        # mc("/myplugin", controller="{{ cookiecutter.project_slug }}", action="something")
         pass
 
     def load_controllers(self):
